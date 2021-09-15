@@ -54,7 +54,7 @@ body
     display: inline-block;
     font-size: 22px;
     padding-right: 12px;
-    color: #a7d942;
+    color: #a7d943;
     padding-top: 10px;
 }
 .ul_contacts a, .place {
@@ -74,7 +74,7 @@ body
 .underlined_green {
     width: 100%;
     height: 2px;
-    background-color: #a7d942;
+    background-color: #a7d943;
     margin-left: -25px;
     margin-top: -13px;
     margin-bottom: 25px;
@@ -86,7 +86,7 @@ body
     padding-top: 50px;
 }
 .page_title {
-    background-color: #a7d942;
+    background-color: #a7d943;
     margin-top: -77px;
     height: 180px;
 }
@@ -156,7 +156,7 @@ body
 .footer_container {
     height: 100px;
     padding: 15px;
-    background-color: #a7d942;
+    background-color: #a7d943;
 }
 .ul_footer {
     text-align: center;
