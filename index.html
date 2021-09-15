@@ -71,6 +71,30 @@
                         <li>English – A2 (in process). I am studing English on the YesToday course.</li>
                     </ul>    
                 </section>
+                <section class="code_example">
+                    <h2 class="h_example">Code Example</h2>
+                    <div class="underlined_black"></div>
+                    <pre class="code">
+                        <code>
+                            function isPalindrome(line) {
+                                line = String(line);
+                                const len = line.length;
+                                const lin = len / 2;
+                                let i = 0;
+                                if (len &lt; 2) {
+                                  return true;
+                                }
+                                while (i &lt;= Math.floor(lin)) {
+                                  if (line[i] !== line[(len - i) - 1]) {
+                                    return false;
+                                  } else {
+                                    return true;
+                                  };
+                                };
+                              };                          
+                        </code>
+                    </pre>    
+                </section>
             </div>
         </div>
     </div>
