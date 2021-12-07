@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://file.myfontastic.com/uhXR8qQbEGxnggvWu8ZLNL/icons.css" rel="stylesheet">
+    <title>Oxana Savianok</title>
+</head>
+<body>
+    <div class="cv">
+        <div class="big_part">
+            <aside class="left_section">
+                <figure class="photo">
+                    <img src="images/photo.jpg" alt="photo">
+                </figure>
+                <section class="contacts">
+                    <h2 class="h_contacts">Contacts</h2>
+                    <div class="underlined_green"></div>
+                    <ul class="ul_contacts">
+                        <li><i class="icon-phone"></i><span class="li_contact">Phone:</span>
+                        <br><a href="tel:+375293715758">+375 29 371-57-58</a></li>
+                        <li><i class="icon-mail"></i><span class="li_contact">Email:</span>
+                        <br><a href="malito:Oxana8833@gmail.com">Oxana8833@gmail.com</a></li>
+                        <li><i class="icon-map-marker"></i><span class="li_contact">Location</span>
+                        <br><span class="place">Minsk, Belarus</span></li>
+                    </ul>
+                </section>
+                <section class="skills">
+                    <h2 class="h_skills">Skills</h2>
+                    <div class="underlined_green"></div>
+                    <ul class="ul_skills">
+                        <li>Engineering</li>
+                        <li>HTML/CSS</li>
+                        <li>Git</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </section>
+            </aside>
+            <div class="main">
+                <header class="page_title">
+                    <h1 class="name">Oxana Savianok</h1>
+                    <p>Future Front-End developer</p>
+                </header>
+                <section class="about_me">
+                    <h2 class="h_title">About me</h2>
+                    <div class="underlined_black"></div>
+                    <p>
+                        Hello, my name is Oxana. I am 33 years old. I am an engineer. I design some 
+                        constructions and mechanisms. I work with steel and other materials. I like 
+                        my job, but I want to upgrade my skills. I want to develop all of my life. <br>
+                        Web programming is constantly growing and changing. I think that I can be part 
+                        of it. That is the main reason why I’ve decided to try something new (rs school).
+                        I want to gain some knowledge in the front-end. And my goal is to become a 
+                        junior JS developer.
+                    </p>
+                </section>
+                <section class="education">
+                    <h3 class="h_education">Education</h3>
+                    <div class="divider_black"></div>
+                    <div class="university">
+                    Belarusian National Technical University,<br>
+                    Faculty of Mechanics and Technology
+                    </div>     
+                </section>
+                <section class="languages">
+                    <h3 class="h_languages">Languages</h3>
+                    <div class="divider_black"></div>
+                    <ul class="ul_lang">
+                        <li>Russian – native speaker</li>
+                        <li>English – A2 (in process). I am studing English on the YesToday course.</li>
+                    </ul>    
+                </section>
+                <section class="code_example">
+                    <h2 class="h_example">Code Example</h2>
+                    <div class="underlined_black"></div>
+                    <pre class="code">
+                        <code>
+                            function isPalindrome(line) {
+                                line = String(line);
+                                const len = line.length;
+                                const lin = len / 2;
+                                let i = 0;
+                                if (len &lt; 2) {
+                                  return true;
+                                }
+                                while (i &lt;= Math.floor(lin)) {
+                                  if (line[i] !== line[(len - i) - 1]) {
+                                    return false;
+                                  } else {
+                                    return true;
+                                  };
+                                };
+                              };                          
+                        </code>
+                    </pre>    
+                </section>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer_container">
+                <ul class="ul_footer">
+                    <li class="gh"><a href="https://github.com/Oxana988" target="_blank">
+                        <img src="images/ic_github.svg" alt="github_icon"></a></li>
+                    <li class="year"><span class="year_font">2021</span></li>
+                    <li><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg"
+                        alt="rs_school_logo"></a></li>        
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
